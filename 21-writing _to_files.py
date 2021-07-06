@@ -1,4 +1,4 @@
-happy_file = open("happy.txt", "a")
+happy_file = open("happy.txt", "a")#3
 print(happy_file.write("\nkelly"))
 happy_file.close()
 
@@ -7,7 +7,7 @@ happy_file = open("happy.txt", "r")
 print(happy_file.read())
 happy_file.close()
 
-happy_file = open("happy.txt1", "w")##tp create a new file
+happy_file = open("happy.txt1", "w")##2tp create a new file
 print(happy_file.write("\nkelly"))
 happy_file.close()
 
