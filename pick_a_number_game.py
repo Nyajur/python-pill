@@ -1,4 +1,9 @@
-number = "1"
+import random
+
+def dice_roll(num):
+   return random.randomint(1,num)
+
+number = dice_roll()
 Pick_number = ""## in a while loop you always need an input to store the users guess
 Tries = []
 number_count = 0
@@ -16,15 +21,6 @@ if out_of_tries:
       print("you've run out of tries")
       
 else:
- print("Way to go!") 
+   print("Way to go!") 
 
-""" while Pick_number != number and len(Tries)<3:
-      if len(Tries) <3:
-        Pick_number = input("Enter a number: ")
-        Tries.append(Pick_number)       
-      else:
-       print("you've run out of tries")
-      
-      
 
-print("Way to go!") """
